@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Outil_De_Transport/Outil_De_Transport.vcxproj" Id="6271a762-61cf-45bd-a9fc-8353d9e4cb9b" />
+</Solution>
