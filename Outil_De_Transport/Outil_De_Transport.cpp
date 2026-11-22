@@ -12,8 +12,7 @@ int main()
     V.afficher();
     Moteur M(2020, 130);
     M.afficher();
-    int fuel = 60;
-    Vehicule *V1=new Voiture(M, "BMW", 250, fuel);
+    Vehicule *V1=new Voiture(M, "BMW", 250, 60);
     V1->afficher();
 
     Voiture_Electrique VE("peugot", 170,80);

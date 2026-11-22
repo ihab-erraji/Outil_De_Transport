@@ -14,7 +14,7 @@ Voiture::Voiture(Moteur& E, string Marque, int vitesse, int Qte_fuel) :Vehicule(
 
 void Voiture::afficher() {
 
-    cout << "Voiture de marque '" << Marque << "' " << "avec la vitesse " << vitesse << "Km/h";
+    cout << "Voiture de marque '" << Marque << "' " << "avec la vitesse " << vitesse << "Km/h" << " et d'un reservoir d'une capacite de " << *Qte_fuel << "L";
     cout << " et de "; engine->afficher();
 
 }
